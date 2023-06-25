@@ -9,3 +9,8 @@
 * [--] For a fair amount of your examples specifically when there is a "Request"/"Response" section, the request body and the response body don't go together/don't make sense. This can be very confusing for your users and can be off putting. Ex: https://docs.tryneum.com/reference/create-workflow 
     * Obvio entiendo que estan un "beta testing" phase y getting features out y likely a lot more important than making sure there are no mistakes in your docs pero I thought I would point it out anyways. Al final del dia aunque sea un beta test entre amigos the website is publicly hosted and there is nothing stopping people from actually stumbling across your product.
 
+## Actually using Neum
+### Summarize Latest News Workflow
+General gist of this workflow is to use the query serp block and configure the model to think that it is a news anchor. Then chain the query serp block with a summarize text one. Once the workflow is up I'll try to hook up the workflow with a simple CLI that asks you what news you want to learn about and provides you a sumamry of the latest news.
+
+* Seems like the query_serp block only returns the first snippet of the serp result. It'd be really nice if it came back with the full result so that the chaining with summarize_text actually has a chance to summarize various results into a concise response.
